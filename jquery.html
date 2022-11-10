@@ -1,0 +1,54 @@
+<html>
+    <head>
+       <link rel="stylesheet" type="text/css" href="website.css">
+    </head>
+    <body>
+        <div id="a0">
+            <div id="a1">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="jquery.html">JQuery</a></li>
+                </ul>
+            </div>
+            <div  id="a2">
+                <h1>Jquery</h1>
+                <table id="a7">
+                    <tr>
+                        <td>Total Marks</td>
+                        <td><input type="text" id="mn"></td>
+                    </tr>
+                    <tr>
+                        <td>Obtained Marks</td>
+                        <td><input type="text" id="om"></td>
+                    </tr>
+                    <tr>
+                    <td><button class="button" type="button" id="new" onclick="per()">Calculate</button></td>
+                    </tr>
+                    <tr>
+                        <td>Percentage</td>
+                        <td><input type="text" id="per"</td>
+                    </tr>
+                    <tr>
+                        <td>CGPA</td>
+                        <td><input type="text" id="cgpa"</td>
+                    </tr>
+                    
+                   </table>
+            </div>
+            <div id="footer">
+                <p>Copyright &copy; Sheebha</p>
+            </div>
+        </div>
+        <script>
+            function per()
+            {
+                document.getElementById('per').value=document.getElementById('om').value/document.getElementById('mn').value*100
+               document.getElementById('cgpa').value=document.getElementById('per').value/10;
+            }
+        </script>
+    </body>
+</html>
