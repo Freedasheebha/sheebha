@@ -4,7 +4,8 @@
     display: flex;
 }
 a{
-    
+    text-decoration: none;
+    color: none;
     font-family: Arial, Helvetica, sans-serif;
 }
 #a2{
@@ -82,4 +83,8 @@ body{
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 5px;
+  }
+#a2 a:hover{
+    text-decoration: underline;
+    color: blue;
   }
