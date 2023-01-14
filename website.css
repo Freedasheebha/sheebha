@@ -46,7 +46,7 @@ body{
     padding: 20px;
     float: left;
     width: 60%;
-    margin-top: 10px;
+    
 }
 #r{
     color: white;
@@ -54,8 +54,8 @@ body{
 #footer{
     text-align: center;
     box-shadow: 1px 2px 4px 2px yellow;
-    border: 1px solid black
-   
+    border: 1px solid black;
+    margin-top: 15px;
 }
 .button {
     background-color: #4CAF50;
@@ -87,7 +87,59 @@ body{
 #a2 a:hover{
     text-decoration: underline;
     color: blue;
+   
   }
 #w{
    color:blue;
+   margin-bottom: 5px;
 }
+h5{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+h3{
+    color: blueviolet;
+}
+#a2:hover{
+    background-color: slategray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#a3{
+     text-shadow: 6px 4px 6px rgb(16, 194, 218);
+}
+h1{
+    text-shadow: 8px 6px 7px green;
+}
+.dropbtn {
+    background-color: white;
+    
+    border: none;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 100px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
